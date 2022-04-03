@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "719133825287",
+    "project_id": "dukkantek-441ea",
+    "storage_bucket": "dukkantek-441ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719133825287:android:24a05d396b67db95114da2",
+        "android_client_info": {
+          "package_name": "com.wdelawed.dukkantek_assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719133825287-kptr83547c3qspokal2hsjl66sauongr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU-fb_pdJzMO1g4frpvamp4k-J-07ZYg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719133825287-kptr83547c3qspokal2hsjl66sauongr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
