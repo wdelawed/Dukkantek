@@ -28,7 +28,7 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
         yield LoginSuccessState(user.token ?? "", user.username ?? "",
             user.user_email ?? "", user.user_id ?? 1, user.tokenExpiry ?? "");
       } catch (e) {
-        yield LoginErrorState(e.toString());
+        yield LoginErrorState("Failed to SignIn using google");
       }
     } else if (event is LoginInitEvent) yield LoginInitState();
   }
